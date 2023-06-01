@@ -1,0 +1,71 @@
+
+body{
+    margin: 50px;
+}
+.primary{
+    background-image: url(../img/hbd3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+    text-align: center;
+    color: grey;
+    font-size: 60px;
+}
+.main{
+   animation-name: animatedbt; 
+   animation-duration: 4s;
+   animation-delay: 2s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-fill-mode: backwards;
+}
+@keyframes animatedbt{
+    0%{opacity: 0;}
+    50%{
+        opacity: 50;
+        color: black;
+    }
+    75%{
+        opacity: 50;
+        color: red;
+    }
+    100%{
+        opacity: 100;
+        color: pink;
+        
+    }
+}
+
+
+.sub{
+    animation-name: animatedbt; 
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+ }
+ @keyframes animatedsub{
+     0%{opacity: 0;}
+     50%{
+         opacity: 50;
+         color: black;
+     }
+     75%{
+         opacity: 50;
+         color: red;
+     }
+     100%{
+         opacity: 100;
+         color: pink;
+         
+     }
+ }
+
+ .vid video{
+    height: 210vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+ }
